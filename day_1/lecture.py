@@ -75,7 +75,7 @@ print('COORDINATE %s is %s' %(another_cell.coordinate, another_cell.value))
 # # Cell objects have a "value" member variable with the content of that cell.
 # # The square brackets in sheet['A1'] get Cell objects.
 # # The cell() method also returns a Cell object from a sheet.
-# my_sheet['A1'] #will return the CELL OBJECT (NOT the value you see in the cell) created by the intersection of the first column and the first row.  The reult of sheet['A1'] will actually be:
+# my_sheet['A1'] #will return the CELL OBJECT (NOT the value you see in the cell) created by the intersection of the first column and the first row.  The result of sheet['A1'] will actually be:
 #     # Result -->  <Cell Sheet1.A1>
 # #so we must ASSIGN IT TO A VARIABLE before we can work with it.
 # my_cell = sheet['A1']
